@@ -1,0 +1,8 @@
+Struts2,，Spring3，Hibernate3（ssh2）框架整合，使用MySql数据库，tomcat 运行环境，和ant自动发布的完整项目。
+需要一些基本的设置，请参看博客http://hi.baidu.com/brinelee/blog/item/4681772327b223e8d6cae2c9.html
+
+Best Regard，
+
+Ian Li
+
+09042011

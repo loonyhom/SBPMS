@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+  <constant name="struts.custom.i18n.resources" value="message" />
+  <!--1Common Action -->
+  <package name="SBPM" extends="json-default">
+    <action name="login" class="ManageUserAction" method="login">
+      <result name="input">/WEB-PAGE/Login.jsp</result>
+      <result name="success">/WEB-PAGE/Test.jsp</result>
+    </action>
+    <!-- 2ChangeLanguage -->
+    <!-- 3Request operation -->
+    <!-- 4Change url -->
+  </package>
+</struts>
